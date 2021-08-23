@@ -124,7 +124,7 @@
           "lib/netstandard2.0/zxing.corecompat.system.drawing.v2.dll": {}
         }
       },
-      "UpnQR/0.0.2": {
+      "UpnQR2/0.0.5": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -133,10 +133,10 @@
           "ZXing.Net.Bindings.CoreCompat.System.Drawing": "0.16.1-beta"
         },
         "compile": {
-          "bin/placeholder/UpnQR.dll": {}
+          "bin/placeholder/UpnQR2.dll": {}
         },
         "runtime": {
-          "bin/placeholder/UpnQR.dll": {}
+          "bin/placeholder/UpnQR2.dll": {}
         }
       }
     }
@@ -463,7 +463,7 @@
         "zxing.net.bindings.corecompat.system.drawing.nuspec"
       ]
     },
-    "UpnQR/0.0.2": {
+    "UpnQR2/0.0.5": {
       "type": "project",
       "path": "../UpnQR/UpnQR.csproj",
       "msbuildProject": "../UpnQR/UpnQR.csproj"
@@ -472,7 +472,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "System.Text.Encoding.CodePages >= 4.4.0",
-      "UpnQR >= 0.0.2"
+      "UpnQR2 >= 0.0.5"
     ]
   },
   "packageFolders": {

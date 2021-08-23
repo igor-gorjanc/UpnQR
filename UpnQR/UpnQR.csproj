@@ -3,9 +3,11 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net40;net45;net46</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.0.2</Version>
-    <Authors>Hozjan Marko</Authors>
+    <Version>0.0.5</Version>
+    <Authors>Hozjan Marko, Igor Gorjanc</Authors>
     <Company />
+    <PackageId>UpnQR2</PackageId>
+    <Product>UpnQR2</Product>
   </PropertyGroup>
 
   <ItemGroup>

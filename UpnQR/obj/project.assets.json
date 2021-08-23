@@ -575,10 +575,10 @@
     "C:\\Users\\igor\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "0.0.2",
+    "version": "0.0.5",
     "restore": {
       "projectUniqueName": "C:\\Users\\igor\\git\\UpnQr\\UpnQR\\UpnQR.csproj",
-      "projectName": "UpnQR",
+      "projectName": "UpnQR2",
       "projectPath": "C:\\Users\\igor\\git\\UpnQr\\UpnQR\\UpnQR.csproj",
       "packagesPath": "C:\\Users\\igor\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\igor\\git\\UpnQr\\UpnQR\\obj\\",
