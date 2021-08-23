@@ -1,17 +1,23 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>netstandard2.0;net40;net45;net46</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
     <Authors>Hozjan Marko</Authors>
     <Company />
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CoreCompat.System.Drawing.v2" Version="5.2.0-preview1-r131" />
     <PackageReference Include="ZXing.Net" Version="0.16.0" />
-    <PackageReference Include="ZXing.Net.Bindings.CoreCompat.System.Drawing" Version="0.16.1-beta" />
   </ItemGroup>
 
+    <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+		<PackageReference Include="CoreCompat.System.Drawing.v2">
+			<Version>5.2.0-preview1-r131</Version>
+		</PackageReference>
+		<PackageReference Include="ZXing.Net.Bindings.CoreCompat.System.Drawing">
+			<Version>0.16.1-beta</Version>
+		</PackageReference>
+	</ItemGroup>
 </Project>

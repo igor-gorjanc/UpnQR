@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Drawing;
 using ZXing;
-using ZXing.CoreCompat.Rendering;
 using ZXing.QrCode;
 using ZXing.QrCode.Internal;
 using ZXing.Rendering;
+
+#if NETSTANDARD2_0
+using ZXing.CoreCompat.Rendering;
+#endif
 
 namespace UpnQR
 {
